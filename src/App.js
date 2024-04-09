@@ -1,20 +1,23 @@
 import styled, { ThemeProvider } from "styled-components";
+// import { useState } from "react";
+// import { darkTheme, lightTheme } from "./utils/Themes";
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
+import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/sections/Hero";
 import Skills from "./components/sections/Skills";
-import Experience from "./components/sections/Experience";
-import Education from "./components/sections/Education";
-import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
+import Experience from "./components/sections/Experience";
+import Education from "./components/sections/Education";
+// import StartCanvas from "./components/canvas/Stars";
+// import ProjectDetails from "./components/sections/ProjectDetails";
 
 const Body = styled.div`
     background-color: ${({ theme }) => theme.bg};
     width: 100%;
-    height: 90vh; //
     overflow-x: hidden;
     position: relative;
 `;
@@ -27,12 +30,16 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+    // const [darkMode, setDarkMode] = useState(true);
+    // const [openModal, setOpenModal] = useState({ state: false, project: null });
+    // console.log(openModal);
     return (
+        // <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <ThemeProvider theme={darkTheme}>
             <BrowserRouter>
                 <Navbar />
                 <Body>
-                    <StartCanvas />
+                    {/* <StartCanvas /> */} {/* UnComment it */}
                     <div>
                         <Hero />
                         <Wrapper>
@@ -40,11 +47,13 @@ function App() {
                             <Experience />
                         </Wrapper>
                         <Projects />
+                        {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
                         <Wrapper>
                             <Education />
                             <Contact />
                         </Wrapper>
                         <Footer />
+                        {/* {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />} */}
                     </div>
                 </Body>
             </BrowserRouter>
