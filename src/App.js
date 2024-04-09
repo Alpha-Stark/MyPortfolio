@@ -12,7 +12,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
-import StartCanvas from "./components/canvas/Stars";
+// import StartCanvas from "./components/canvas/Stars";
 // import ProjectDetails from "./components/sections/ProjectDetails";
 
 const Body = styled.div`
@@ -39,7 +39,7 @@ function App() {
             <BrowserRouter>
                 <Navbar />
                 <Body>
-                    <StartCanvas /> {/* UnComment it */}
+                    {/* <StartCanvas />  */}
                     <div>
                         <Hero />
                         <Wrapper>
