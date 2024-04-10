@@ -187,7 +187,7 @@ export const experiences = [
         company: "ProExeLancers (ExeLance IT)",
         date: "July 2023 - July 2024",
         desc: "ABCBABABABABABABABABABABBAABBA",
-        skills: [" Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript"],
+        skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Agile"],
         doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
@@ -242,7 +242,17 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://storage.googleapis.com/ezap-prod/colleges/6347/school-of-engineering-pp-savani-university-surat-logo.jpg",
+        img: "https://storage-prtl-co.imgix.net/endor/organisations/11238/logos/1556893197_nu_mononu_cmyk_rb.jpg",
+        // img: "https://www.canamgroup.com/assets/universitylogos/1691388731-Northeastern-University-Boston-Campus.webp",
+        school: "Northeastern University, Boston",
+        date: "Sep 2024 - Sep 2026",
+        grade: " /4 GPA",
+        desc: "I'll be joining Khoury College of Computer Sciences at Northeastern University, Boston, Massachusetts for my Master's degree in Computer Science.",
+        degree: "Master of Science in Computer Science",
+    },
+    {
+        id: 1,
+        img: "https://storage.googleapis.com/ezap-prod/colleges/335/pp-savani-university-logo.jpeg",
         school: "P P Savani University, Surat",
         date: "July 2020 - May 2024",
         grade: "8.71 CGPA",
@@ -250,8 +260,8 @@ export const education = [
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
-        id: 1,
-        img: "https://kaushalvidyabhavan.com/assets/Image/logo_desc.png",
+        id: 2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReK_0NzKxq8AmX1EwdD_kIyb8YsScHFIT4nAapCdxK_g&s",
         school: "Kaushal Vidyabhavan, Surat",
         date: "Apr 2018 - Apr 2020",
         grade: "76.65 PR",
@@ -259,7 +269,7 @@ export const education = [
         degree: "GSEB(XII), Science with Computer",
     },
     {
-        id: 2,
+        id: 3,
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCt-fRHSqFdt88QI73GXHEE6NjKwoA3dqItLE29jPUag&s",
         school: "Gajera Vidyabhavan, Surat",
         date: "Apr 2017 - Apr 2018",
