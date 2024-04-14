@@ -107,9 +107,16 @@ const Button = styled.a`
 
 // const ProjectCard = ({ project, setOpenModal }) => {
 const ProjectCard = ({ project }) => {
+    // Calculate the height based on the number of members
+    const calculateCardHeight = () => {
+        const baseHeight = 490; // Base height without members
+        const additionalHeightPerMember = project.member ? 48 : 0; // Additional height for members
+        return baseHeight + additionalHeightPerMember;
+    };
+
     return (
         // <Card onClick={() => setOpenModal({ state: true, project: project })}>
-        <Card>
+        <Card style={{ height: calculateCardHeight() + "px" }}>
             <Image src={project.image} />
             <Tags>
                 {project.tags?.map((tag, index) => (
