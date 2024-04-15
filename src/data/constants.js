@@ -182,7 +182,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: "https://media.licdn.com/dms/image/D4D0BAQFS7n8uQQSv_A/company-logo_200_200/0/1692176715066/proexelancers_logo?e=2147483647&v=beta&t=d_Lw-wAq9m5nMTty1NUCQQ5Dpr1aqhAxYhFQqHflAEE",
+        img: "https://alpha-stark.github.io/images/ProExeLancers.jpg",
         role: "Software Developer",
         company: "ProExeLancers (ExeLance IT)",
         date: "July 2023 - July 2024",
