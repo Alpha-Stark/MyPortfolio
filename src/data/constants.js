@@ -303,7 +303,7 @@ export const projects = [
         id: 2,
         title: "Yelp Camp",
         date: "May 2023 - Sep 2023",
-        description: "YelpCamp, a full-stack website, allows users to create, review campgrounds with account login, featuring map integration for exploring campground clusters. Built with Node.js, Express, MongoDB, Bootstrap, and Passport.js for authentication.",
+        description: "YelpCamp, a full-stack website, allows users to create, review campgrounds, featuring map integration for exploring campground clusters. Built with Node.js, Express, MongoDB, Bootstrap, and Passport.js for authentication.",
         image: "https://alpha-stark.github.io/images/YelpCamp.png",
         tags: ["MongoDb", "Node Js", "Express Js", "Tailwind CSS"],
         category: "web app",
