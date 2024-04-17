@@ -281,7 +281,7 @@ export const projects = [
         id: 0,
         title: "Promptopia",
         date: "Nov 2023 - Dec 2023",
-        description: "ABC",
+        description: "Promptopia serves as an open-source prompting tool, enabling users to discover, craft, and share creative prompts effortlessly.",
         image: "https://alpha-stark.github.io/images/Promptopia.png",
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Tailwind CSS"],
         category: "web app",
