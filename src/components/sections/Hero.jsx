@@ -123,9 +123,8 @@ const SubTitle = styled.div`
     @media (max-width: 960px) {
         font-size: 16px;
         line-height: 32px;
+        text-align: justify;
     }
-
-    text-align: justify;
 `;
 
 const ResumeButton = styled.a`
