@@ -10,7 +10,7 @@ const Container = styled.div`
     position: rlative;
     z-index: 1;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 75px;
 `;
 
 const Wrapper = styled.div`
