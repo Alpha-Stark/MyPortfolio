@@ -124,6 +124,8 @@ const SubTitle = styled.div`
         font-size: 16px;
         line-height: 32px;
     }
+
+    text-align: justify;
 `;
 
 const ResumeButton = styled.a`

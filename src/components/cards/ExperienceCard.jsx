@@ -66,6 +66,7 @@ const Skills = styled.div`
 const Span = styled.div`
     display: -webkit-box;
     max-width: 100%;
+    text-align: justify;
 `;
 
 const Skill = styled.div`
