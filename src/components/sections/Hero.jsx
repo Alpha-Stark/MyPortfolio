@@ -125,6 +125,7 @@ const SubTitle = styled.div`
         line-height: 32px;
         text-align: justify;
     }
+    text-align: justify;
 `;
 
 const ResumeButton = styled.a`
