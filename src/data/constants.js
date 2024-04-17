@@ -271,7 +271,7 @@ export const projects = [
             },
             {
                 name: "Hardi Virani",
-                img: "https://alpha-stark.github.io/images/Hardi1.jpg",
+                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
                 linkedin: "https://www.linkedin.com/in/hardi-virani/",
                 github: "https://github.com/hardi-virani",
             },
@@ -330,7 +330,7 @@ export const projects = [
             },
             {
                 name: "Hardi Virani",
-                img: "https://alpha-stark.github.io/images/Hardi1.jpg",
+                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
                 linkedin: "https://www.linkedin.com/in/hardi-virani/",
                 github: "https://github.com/hardi-virani",
             },
