@@ -321,6 +321,20 @@ export const projects = [
         category: "machine learning",
         github: "https://github.com/Alpha-Stark/DataFort",
         webapp: "https://github.com/Alpha-Stark/DataFort",
+        member: [
+            {
+                name: "Mann Savani",
+                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
+                linkedin: "https://www.linkedin.com/in/mann-savani/",
+                github: "https://github.com/Alpha-Stark",
+            },
+            {
+                name: "Hardi Virani",
+                img: "https://alpha-stark.github.io/images/Hardi1.jpg",
+                linkedin: "https://www.linkedin.com/in/hardi-virani/",
+                github: "https://github.com/hardi-virani",
+            },
+        ],
     },
 ];
 
