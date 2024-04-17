@@ -13,6 +13,7 @@ const Container = styled.div`
     @media (max-width: 960px) {
         padding: 0px;
     }
+    padding-top: 80px;
 `;
 
 const Wrapper = styled.div`

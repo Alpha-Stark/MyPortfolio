@@ -7,11 +7,12 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-contnet: center;
-    margin-top: 50px;
+    // margin-top: 50px;
     padding: 0px 16px;
     position: rlative;
     z-index: 1;
     align-items: center;
+    padding-top: 80px;
 `;
 
 const Wrapper = styled.div`
