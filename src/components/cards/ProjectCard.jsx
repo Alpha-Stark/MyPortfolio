@@ -105,6 +105,18 @@ const Button = styled.a`
     text-align: center;
 `;
 
+const ButtonContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px; /* Add padding to create space around buttons */
+`;
+
+const CenteredButtonContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
+`;
+
 // const ProjectCard = ({ project, setOpenModal }) => {
 const ProjectCard = ({ project }) => {
     // Calculate the height based on the number of members
@@ -116,6 +128,7 @@ const ProjectCard = ({ project }) => {
 
     return (
         // <Card onClick={() => setOpenModal({ state: true, project: project })}>
+
         <Card style={{ height: calculateCardHeight() + "px" }}>
             <Image src={project.image} />
             <Tags>
@@ -133,9 +146,23 @@ const ProjectCard = ({ project }) => {
                     <Avatar key={`member-${index}`} src={member.img} />
                 ))}
             </Members>
-            <Button href={project.github} target="_blank">
-                View Code
-            </Button>
+
+            {project.webapp ? (
+                <ButtonContainer>
+                    <Button href={project.github} target="_blank">
+                        View Code
+                    </Button>
+                    <Button href={project.webapp} target="_blank">
+                        Visit Site
+                    </Button>
+                </ButtonContainer>
+            ) : (
+                <CenteredButtonContainer>
+                    <Button href={project.github} target="_blank">
+                        View Code
+                    </Button>
+                </CenteredButtonContainer>
+            )}
         </Card>
     );
 };

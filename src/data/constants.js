@@ -253,7 +253,7 @@ export const education = [
 
 export const projects = [
     {
-        id: 9,
+        id: 0,
         title: "Evently",
         date: "Dec 2023 - March 2024",
         description: "Evently is a comprehensive, full-stack events management platform built on Next.js 14, featuring seamless payment processing through Stripe, user authentication with Clerk, and robust functionalities for creating, reading, updating, and deleting events, ultimately providing users with a dynamic and engaging event experience.",
@@ -261,7 +261,7 @@ export const projects = [
         tags: ["Next Js", "React Js", "MongoDb", "Node Js", "Express Js", "Stripe", "Tailwind CSS"],
         category: "web app",
         github: "https://github.com/Alpha-Stark/Evently",
-        webapp: "hhttps://alpha-evently.vercel.app/",
+        webapp: "https://alpha-evently.vercel.app/",
         member: [
             {
                 name: "Mann Savani",
@@ -278,7 +278,33 @@ export const projects = [
         ],
     },
     {
-        id: 0,
+        id: 1,
+        title: "Data Fort",
+        date: "Aug 2023",
+        description: "Aims to detect crop disease via drone images throught ML Model, supported by blockchain for photo storage and Ethereum Smart Contracts for decentralization.",
+        image: "https://static8.depositphotos.com/1419773/946/i/450/depositphotos_9462228-stock-photo-black-texture.jpg",
+        // image: "https://image.architonic.com/pro1-3/20182762/ps-1440-z-pro-sq-arcit18.jpg",
+        tags: ["JavaScript", "Python", "Solidity", "TypeScript"],
+        category: "machine learning",
+        github: "https://github.com/Alpha-Stark/DataFort",
+        webapp: "",
+        member: [
+            {
+                name: "Mann Savani",
+                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
+                linkedin: "https://www.linkedin.com/in/mann-savani/",
+                github: "https://github.com/Alpha-Stark",
+            },
+            {
+                name: "Hardi Virani",
+                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
+                linkedin: "https://www.linkedin.com/in/hardi-virani/",
+                github: "https://github.com/hardi-virani",
+            },
+        ],
+    },
+    {
+        id: 2,
         title: "Promptopia",
         date: "Nov 2023 - Dec 2023",
         description: "Promptopia serves as an open-source prompting tool, enabling users to discover, craft, and share creative prompts effortlessly.",
@@ -289,7 +315,7 @@ export const projects = [
         webapp: "https://alpha-promptopia.vercel.app/",
     },
     {
-        id: 1,
+        id: 3,
         title: "GitHub Profile Finder",
         date: "Oct 2023 - Nov 2023",
         description: "App to explore GitHub users & their profiles for efficient searches & info display.",
@@ -300,7 +326,7 @@ export const projects = [
         webapp: "https://alpha-github-finder.vercel.app/",
     },
     {
-        id: 2,
+        id: 4,
         title: "Yelp Camp",
         date: "May 2023 - Sep 2023",
         description: "YelpCamp, a full-stack website, allows users to create, review campgrounds, featuring map integration for exploring campground clusters. Built with Node.js, Express, MongoDB, Bootstrap, and Passport.js for authentication.",
@@ -309,32 +335,6 @@ export const projects = [
         category: "web app",
         github: "https://github.com/Alpha-Stark/YelpCamp",
         webapp: "",
-    },
-    {
-        id: 3,
-        title: "Data Fort",
-        date: "Aug 2023",
-        description: "Aims to detect crop disease via drone images throught ML Model, supported by blockchain for photo storage and Ethereum Smart Contracts for decentralization.",
-        image: "https://static8.depositphotos.com/1419773/946/i/450/depositphotos_9462228-stock-photo-black-texture.jpg",
-        // image: "https://image.architonic.com/pro1-3/20182762/ps-1440-z-pro-sq-arcit18.jpg",
-        tags: ["JavaScript", "Python", "Solidity", "TypeScript"],
-        category: "machine learning",
-        github: "https://github.com/Alpha-Stark/DataFort",
-        webapp: "https://github.com/Alpha-Stark/DataFort",
-        member: [
-            {
-                name: "Mann Savani",
-                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
-                linkedin: "https://www.linkedin.com/in/mann-savani/",
-                github: "https://github.com/Alpha-Stark",
-            },
-            {
-                name: "Hardi Virani",
-                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
-                linkedin: "https://www.linkedin.com/in/hardi-virani/",
-                github: "https://github.com/hardi-virani",
-            },
-        ],
     },
 ];
 
