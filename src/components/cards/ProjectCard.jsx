@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    // height: 490px;
+    height: 535px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -80,7 +81,7 @@ const Description = styled.div`
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 `;
@@ -120,16 +121,23 @@ const CenteredButtonContainer = styled.div`
 // const ProjectCard = ({ project, setOpenModal }) => {
 const ProjectCard = ({ project }) => {
     // Calculate the height based on the number of members
-    const calculateCardHeight = () => {
-        const baseHeight = 490; // Base height without members
-        const additionalHeightPerMember = project.member ? 48 : 0; // Additional height for members
-        return baseHeight + additionalHeightPerMember;
+    // const calculateCardHeight = () => {
+    //     const baseHeight = 490; // Base height without members
+    //     const additionalHeightPerMember = project.member ? 48 : 0; // Additional height for members
+    //     return baseHeight + additionalHeightPerMember;
+    // };
+
+    const calculateDescriptionHeight = () => {
+        const baseHeight = 75; // Base height without members
+        const additionalHeightPerDescription = project.member ? 0 : 40; // Additional height to description
+        return baseHeight + additionalHeightPerDescription;
     };
 
     return (
         // <Card onClick={() => setOpenModal({ state: true, project: project })}>
 
-        <Card style={{ height: calculateCardHeight() + "px" }}>
+        // <Card style={{ height: calculateCardHeight() + "px" }}>
+        <Card>
             <Image src={project.image} />
             <Tags>
                 {project.tags?.map((tag, index) => (
@@ -139,7 +147,7 @@ const ProjectCard = ({ project }) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Description style={{ height: calculateDescriptionHeight() + "px", WebkitLineClamp: project.member ? 3 : 5 }}>{project.description}</Description>
             </Details>
             <Members>
                 {project.member?.map((member, index) => (
