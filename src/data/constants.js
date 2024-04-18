@@ -28,14 +28,6 @@ export const skills = [
                 image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
             },
             {
-                name: "HTML",
-                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-            },
-            {
-                name: "CSS",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
-            },
-            {
                 name: "JavaScript",
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
             },
@@ -47,10 +39,6 @@ export const skills = [
                 name: "Tailwind CSS",
                 image: "https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu",
             },
-            /* {
-                name: "Bootstrap",
-                image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-            }, */
             {
                 name: "shadcn/ui",
                 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6hcl9s0d3s9UYqHPvSpvTOZwngO4_pARCYHkCWmnFLQ&s",
@@ -59,6 +47,18 @@ export const skills = [
                 name: "Material UI",
                 image: "https://mui.com/static/logo.png",
             },
+            {
+                name: "HTML",
+                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+            },
+            {
+                name: "CSS",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+            },
+            /* {
+                name: "Bootstrap",
+                image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+            }, */
         ],
     },
     {
