@@ -187,7 +187,7 @@ export const experiences = [
         role: "Software Developer",
         company: "ProExeLancers (ExeLance IT)",
         date: "July 2023 - July 2024",
-        desc: "ABCBABABABABABABABABABABBAABBA",
+        desc: "Developed, Designed and implemented interactive and responsive user interfaces using React JS, enhancing the overall user experience. Developed and optimized RESTful APIs with Node.js and Express.js, facilitating efficient data retrieval and manipulation. Collaborated with cross-functional teams and followed Agile practices and conducted performance optimizations and resolved issues.",
         skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Agile"],
         doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
