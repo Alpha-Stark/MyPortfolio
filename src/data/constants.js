@@ -283,12 +283,12 @@ export const projects = [
         title: "Data Fort",
         date: "Aug 2023",
         description: "Aims to detect crop disease via drone images throught ML Model, supported by blockchain for photo storage and Ethereum Smart Contracts for decentralization.",
-        image: "https://static8.depositphotos.com/1419773/946/i/450/depositphotos_9462228-stock-photo-black-texture.jpg",
+        image: "https://alpha-stark.github.io/images/DataFort.png",
         // image: "https://image.architonic.com/pro1-3/20182762/ps-1440-z-pro-sq-arcit18.jpg",
         tags: ["JavaScript", "Python", "Solidity", "TypeScript"],
         category: "machine learning",
         github: "https://github.com/Alpha-Stark/DataFort",
-        webapp: "",
+        webapp: "https://datafort-1761ff.spheron.app/",
         member: [
             {
                 name: "Mann Savani",
