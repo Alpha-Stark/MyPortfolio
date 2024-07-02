@@ -1,7 +1,7 @@
 export const Bio = {
     name: "Mann Savani",
-    image: "https://alpha-stark.github.io/images/MannSavani.jpg",
-    roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder"],
+    image: "https://alpha-stark.github.io/images/MannSavaniLight.jpg",
+    roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder."],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Alpha-Stark",
     resume: "https://drive.google.com/file/d/1UL2V3bPgyHeshuGeEDZEQPmoV22RmEua/view?usp=sharing",
