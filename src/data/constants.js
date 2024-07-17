@@ -4,12 +4,13 @@ export const Bio = {
     roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder."],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Alpha-Stark",
-    resume: "https://drive.google.com/file/d/1z62f2-xcC61rJk0-NPGDUS7jK9ngOizf/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1TrmhFWxx4CiSARgIB7YtsPv6Z56ASv-9/view?usp=sharing",
+    // resume: "https://drive.google.com/file/d/1z62f2-xcC61rJk0-NPGDUS7jK9ngOizf/view?usp=sharing",
     // resume: "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/mann-savani/",
     twitter: "https://twitter.com/MANNSAVANI2",
     insta: "https://www.instagram.com/mann_savani/",
-    // facebook: "https://www.facebook.com/rishav.chanda.165/",
+    // facebook: "https://www.facebook.com/USER_NAME/",
 };
 
 export const skills = [
