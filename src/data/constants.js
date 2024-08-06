@@ -4,7 +4,7 @@ export const Bio = {
     roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder."],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Alpha-Stark",
-    resume: "https://drive.google.com/file/d/1TrmhFWxx4CiSARgIB7YtsPv6Z56ASv-9/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/14bqHmRKMq9dGfXjX5mRPRZ3-AwqPbOLD/view?usp=sharing",
     // resume: "https://drive.google.com/file/d/1z62f2-xcC61rJk0-NPGDUS7jK9ngOizf/view?usp=sharing",
     // resume: "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/mann-savani/",
@@ -216,7 +216,7 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://storage-prtl-co.imgix.net/endor/organisations/11238/logos/1556893197_nu_mononu_cmyk_rb.jpg",
+        img: "https://alpha-stark.github.io/images/NortheasternUniversityLogo.jpg",
         // img: "https://www.canamgroup.com/assets/universitylogos/1691388731-Northeastern-University-Boston-Campus.webp",
         school: "Northeastern University, Boston",
         date: "Sep 2024 - Sep 2026",
@@ -226,16 +226,16 @@ export const education = [
     },
     {
         id: 1,
-        img: "https://storage.googleapis.com/ezap-prod/colleges/335/pp-savani-university-logo.jpeg",
+        img: "https://alpha-stark.github.io/images/PPSavaniUniversityLogo.jpeg",
         school: "P P Savani University, Surat",
         date: "July 2020 - June 2024",
-        grade: "8.75 CGPA (Till 7th Semester)",
-        desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at P P Savani University, Surat. I have completed 7 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PPSU, where I lead and worked on exciting projects with a team of talented developers, along with mentoring over 800+ students.",
+        grade: "8.65 CGPA",
+        desc: "I have completed a Bachelor's degree in Computer Engineering at P P Savani University, Surat. I have taken courses in Data Structures & Algorithms, Design & Analysis of Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PPSU, where I lead and worked on exciting projects with a team of talented developers, along with mentoring over 800+ students.",
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
         id: 2,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReK_0NzKxq8AmX1EwdD_kIyb8YsScHFIT4nAapCdxK_g&s",
+        img: "https://alpha-stark.github.io/images/KaushalVidyabhavanLogo.jpg",
         school: "Kaushal Vidyabhavan, Surat",
         date: "Apr 2018 - Apr 2020",
         grade: "76.65 PR",
@@ -244,7 +244,7 @@ export const education = [
     },
     {
         id: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCt-fRHSqFdt88QI73GXHEE6NjKwoA3dqItLE29jPUag&s",
+        img: "https://alpha-stark.github.io/images/GajeraVidyabhavanLogo.jpg",
         school: "Gajera Vidyabhavan, Surat",
         date: "Apr 2017 - Apr 2018",
         grade: "92.35 PR",
