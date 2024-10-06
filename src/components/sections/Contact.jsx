@@ -132,6 +132,19 @@ class Contact extends Component {
 
     async handleSubmit(e) {
         e.preventDefault();
+        const form = this.formRef.current;
+
+        // Retrieve values from the input fields
+        const email = form.from_email.value.trim();
+        const name = form.from_name.value.trim();
+        const message = form.message.value.trim();
+
+        // Check if any required field is empty
+        if (!email || !name || !message) {
+            window.alert("Please fill out all the fields properly before submitting.");
+            return;
+        }
+
         try {
             await emailjs.sendForm("service_6mkht56", "template_8bhwtio", this.formRef.current, "MmnsbZLgBlyaBHA0f");
             this.setState({ openSnackbar: true });
@@ -151,10 +164,10 @@ class Contact extends Component {
                     <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
                     <ContactForm ref={this.formRef} onSubmit={this.handleSubmit}>
                         <ContactTitle>Email Me 🚀</ContactTitle>
-                        <ContactInput placeholder="Your Email" name="from_email" />
-                        <ContactInput placeholder="Your Name" name="from_name" />
+                        <ContactInput placeholder="Your Email*" name="from_email" />
+                        <ContactInput placeholder="Your Name*" name="from_name" />
                         <ContactInput placeholder="Subject" name="subject" />
-                        <ContactInputMessage placeholder="Message" rows="4" name="message" />
+                        <ContactInputMessage placeholder="Message*" rows="4" name="message" />
                         <ContactButton type="submit" value="Send" />
                     </ContactForm>
                     <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={() => this.setState({ openSnackbar: false })} message="Email sent successfully!" severity="success" />
