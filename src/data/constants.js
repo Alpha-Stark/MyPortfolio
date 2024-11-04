@@ -182,6 +182,16 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
+        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFpTtdRlfpm8A/company-logo_200_200/company-logo_200_200/0/1630503896211/khoury_college_logo?e=1738800000&v=beta&t=L5W5kZhqyFOxI3_lve_yu5SfanmtIVbwk4sYoAwz67w",
+        role: "Teaching Assistant (Grading Head)",
+        company: "Khoury College of Computer Sciences, Northeastern University",
+        date: "Sep 2024 - Current",
+        desc: "Led grading operations for over 500 students, designing weekly grading systems and auditing consistency, reporting directly to the professor. • Conducted labs and office hours, guiding students through complex programming challenges and helping them master course concepts. • Delivered detailed, constructive feedback on student assignments, driving academic growth and ensuring alignment with learning objectives.",
+        // skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Agile"],
+        // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
+    },
+    {
+        id: 1,
         img: "https://alpha-stark.github.io/images/ExelanceITLogo.jpg",
         role: "Software Development Engineer",
         company: "ExeLance IT",
@@ -191,7 +201,7 @@ export const experiences = [
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 3,
+        id: 2,
         img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
         role: "Event Lead",
         company: "GDSC PPSU",
