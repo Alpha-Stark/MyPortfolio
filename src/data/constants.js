@@ -182,7 +182,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFpTtdRlfpm8A/company-logo_200_200/company-logo_200_200/0/1630503896211/khoury_college_logo?e=1738800000&v=beta&t=L5W5kZhqyFOxI3_lve_yu5SfanmtIVbwk4sYoAwz67w",
+        img: "https://alpha-stark.github.io/images/KhouryLogo.jpg",
         role: "Teaching Assistant (Grading Head)",
         company: "Khoury College of Computer Sciences, Northeastern University",
         date: "Sep 2024 - Current",
