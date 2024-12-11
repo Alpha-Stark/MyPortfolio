@@ -4,7 +4,7 @@ export const Bio = {
     roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder."],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Alpha-Stark",
-    resume: "https://drive.google.com/file/d/1cFXhgw8PYl1lLYTyqeegrg_d7KfJdaOb/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1zQl3yG8QH8cMCpme-rHWId4BXSOIXgDD/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/mann-savani/",
     twitter: "https://twitter.com/MANNSAVANI2",
     insta: "https://www.instagram.com/mann_savani/",
