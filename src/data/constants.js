@@ -77,6 +77,16 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
+        img: "https://alpha-stark.github.io/images/amazon_logo.jpeg",
+        role: "Software Development Engineer Co-op",
+        company: "Amazon",
+        date: "May 2025 - Current",
+        // desc: "Built an automated Python-based grading pipeline, reducing manual effort by 70% and providing instant feedback. Conducted in-person code reviews & debugging sessions to help students optimize ML workflows and improve code quality.",
+        skills: ["Java", "Kotlin", "Agile", "SDLC", "Git", "Code Review", "Debugging", "Automation"],
+        // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
+    },
+    {
+        id: 1,
         img: "https://alpha-stark.github.io/images/KhouryLogo.jpg",
         role: "Teaching Assistant (Grading Head)",
         company: "Khoury College of Computer Sciences, Northeastern University",
@@ -86,7 +96,7 @@ export const experiences = [
         // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 1,
+        id: 2,
         img: "https://alpha-stark.github.io/images/ExelanceITLogo.jpg",
         role: "Software Development Engineer",
         company: "ExeLance IT",
@@ -96,7 +106,7 @@ export const experiences = [
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 2,
+        id: 3,
         img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
         role: "Event Lead",
         company: "GDSC PPSU",
