@@ -39,7 +39,7 @@ function App() {
             <BrowserRouter>
                 <Navbar />
                 <Body>
-                    <StartCanvas />
+                    {/* <StartCanvas /> */}
                     <div>
                         <Hero />
                         <Wrapper>
