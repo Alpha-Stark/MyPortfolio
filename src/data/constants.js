@@ -107,7 +107,7 @@ export const experiences = [
     },
     {
         id: 3,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+        img: "https://alpha-stark.github.io/images/GDSC.png",
         role: "Event Lead",
         company: "GDSC PPSU",
         date: "Jul 2022 - Jun 2023",
