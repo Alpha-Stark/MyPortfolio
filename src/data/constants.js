@@ -1,6 +1,6 @@
 export const Bio = {
     name: "Mann Savani",
-    image: "https://alpha-stark.github.io/images/MannSavaniLight.jpg",
+    image: "https://alpha-stark.github.io/images/dp@vessel.jpeg",
     roles: ["Full Stack Developer.", "Programmer.", "Competitive Coder."],
     description: "Passionate Software Engineer with expertise in Full-Stack Development, Microservices, and Scalable Systems. Adept at building high-performance applications using Next.js, Express.Js, Spring Boot, and cloud technologies. Enthusiastic about solving complex problems and delivering impactful solutions.",
     github: "https://github.com/Alpha-Stark",
@@ -39,7 +39,7 @@ export const skills = [
     {
         title: "Backend",
         skills: [
-            { name: "Spring Boot", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1200px-Spring_Boot.svg.png" },
+            { name: "Spring Boot", image: "https://img.icons8.com/color/512/spring-logo.png" },
             { name: "Node.js", image: "https://nodejs.org/static/images/logo.svg" },
             {
                 name: "Express.js",
@@ -68,7 +68,7 @@ export const skills = [
     {
         title: "Testing & Automation",
         skills: [
-            { name: "Selenium", image: "https://static-00.iconduck.com/assets.00/selenium-icon-2048x1986-3fr2ikf8.png" },
+            { name: "Selenium", image: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/selenium.png" },
             { name: "JUnit", image: "https://avatars.githubusercontent.com/u/874086?s=200&v=4" },
         ],
     },
@@ -76,7 +76,17 @@ export const skills = [
 
 export const experiences = [
     {
-        id: 0,
+        id: 4,
+        img: "https://alpha-stark.github.io/images/amazon_logo.jpeg",
+        role: "Software Development Engineer",
+        company: "Amazon",
+        date: "Sept 2025 - Present",
+        desc: "Part of CS Corp Customer Service team, responsible for designing and implementing scalable backend services using AWS Lambda, DynamoDB, and API Gateway. Collaborated with cross-functional teams to enhance system performance and reliability.",
+        skills: ["AWS SageMaker", "CDK", "Lambda", "Java", "Python", "DynamoDB", "S3", "API Gateway", "CI/CD"],
+        // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
+    },
+    {
+        id: 3,
         img: "https://alpha-stark.github.io/images/amazon_logo.jpeg",
         role: "Software Development Engineer Co-op",
         company: "Amazon",
@@ -86,17 +96,17 @@ export const experiences = [
         // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 1,
+        id: 2,
         img: "https://alpha-stark.github.io/images/KhouryLogo.jpg",
-        role: "Teaching Assistant (Grading Head)",
+        role: "Graduate Teaching Assistant",
         company: "Khoury College of Computer Sciences, Northeastern University",
-        date: "Sep 2024 - Current",
+        date: "Sep 2024 - Aug 2026",
         desc: "Built an automated Python-based grading pipeline, reducing manual effort by 70% and providing instant feedback. Conducted in-person code reviews & debugging sessions to help students optimize ML workflows and improve code quality.",
         skills: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Jupyter Notebook", "Git", "Code Review", "Debugging", "Automation"],
         // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 2,
+        id: 1,
         img: "https://alpha-stark.github.io/images/ExelanceITLogo.jpg",
         role: "Software Development Engineer",
         company: "ExeLance IT",
@@ -106,7 +116,7 @@ export const experiences = [
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
-        id: 3,
+        id: 0,
         img: "https://alpha-stark.github.io/images/GDSC.png",
         role: "Event Lead",
         company: "GDSC PPSU",
@@ -132,9 +142,9 @@ export const education = [
         img: "https://alpha-stark.github.io/images/NortheasternUniversityLogo.jpg",
         // img: "https://www.canamgroup.com/assets/universitylogos/1691388731-Northeastern-University-Boston-Campus.webp",
         school: "Khoury College of Computer Sciences, Northeastern University, Boston",
-        date: "Sep 2024 - Sep 2026",
+        date: "Sep 2024 - Aug 2026",
         grade: " 4.0/4.0 GPA",
-        desc: "I'll be joining Khoury College of Computer Sciences at Northeastern University, Boston, Massachusetts for my Master's degree in Computer Science.",
+        desc: "Khoury College of Computer Sciences at Northeastern University, Boston, Massachusetts for my Master's degree in Computer Science.",
         degree: "Master of Science in Computer Science",
     },
     {
@@ -151,7 +161,7 @@ export const education = [
         img: "https://alpha-stark.github.io/images/KaushalVidyabhavanLogo.jpg",
         school: "Kaushal Vidyabhavan, Surat",
         date: "Apr 2018 - Apr 2020",
-        grade: "76.65 PR",
+        // grade: "76.65 PR",
         desc: "I completed my class 12 high school education at Kaushal Vidyabhavan, Surat, where I studied Science with Computer Science.",
         degree: "GSEB(XII), Science with Computer",
     },
@@ -168,7 +178,57 @@ export const education = [
 
 export const projects = [
     {
-        id: 0,
+        id: 5,
+        title: "Real-Time Trading Risk Platform",
+        date: "July 2026 - August 2026",
+        description: "An event-driven microservices platform that screens financial transactions in real time for fraud, risk-limit breaches, and regulatory compliance. Eight Go services communicate over priority-routed SQS queues with dead-letter fan-out, deployed on AWS ECS Fargate via Terraform, with a chaos-engineering dashboard and load-tested CAP trade-off experiments.",
+        image: "https://alpha-stark.github.io/images/TradingRiskPlatform.jpeg",
+        tags: ["Go", "AWS", "Terraform", "ECS Fargate", "SQS", "DynamoDB", "Redis", "FastAPI"],
+        category: "distributed systems",
+        github: "https://github.com/Alpha-Stark/real-time-trading-risk-platform",
+        webapp: "",
+        member: [
+            {
+                name: "Mann Savani",
+                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
+                linkedin: "https://www.linkedin.com/in/mann-savani/",
+                github: "https://github.com/Alpha-Stark",
+            },
+            {
+                name: "Hardi Virani",
+                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
+                linkedin: "https://www.linkedin.com/in/hardi-virani/",
+                github: "https://github.com/hardi-virani",
+            },
+        ],
+    },
+    {
+        id: 4,
+        title: "Clinical Discharge Note Simplification",
+        date: "August 2026",
+        description: "An LLM pipeline that rewrites dense clinical discharge notes into plain language patients can act on. Fine-tunes and benchmarks T5, BART, and Pegasus on de-identified notes, then layers FAISS retrieval over a lay-term dictionary to replace medical jargon, with readability scored by Flesch-Kincaid grade level.",
+        image: "https://alpha-stark.github.io/images/ClinicalSummarizer.png",
+        tags: ["Python", "PyTorch", "Hugging Face", "Transformers", "FAISS", "RAG", "Streamlit"],
+        category: "machine learning",
+        github: "https://github.com/Alpha-Stark/clinical-discharge-note-simplification",
+        webapp: "",
+        member: [
+            {
+                name: "Mann Savani",
+                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
+                linkedin: "https://www.linkedin.com/in/mann-savani/",
+                github: "https://github.com/Alpha-Stark",
+            },
+            {
+                name: "Hardi Virani",
+                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
+                linkedin: "https://www.linkedin.com/in/hardi-virani/",
+                github: "https://github.com/hardi-virani",
+            },
+        ],
+    },
+    {
+        id: 3,
         title: "Evently",
         date: "Dec 2023 - March 2024",
         description: "A full-stack event management platform with Clerk authentication and Stripe payments for seamless event creation and engagement.",
@@ -193,7 +253,7 @@ export const projects = [
         ],
     },
     {
-        id: 1,
+        id: 2,
         title: "Promptopia",
         date: "Nov 2023 - Dec 2023",
         description: "Promptopia serves as an open-source prompting tool, enabling users to discover, craft, and share creative prompts effortlessly.",
@@ -204,7 +264,7 @@ export const projects = [
         webapp: "https://alpha-promptopia.vercel.app/",
     },
     {
-        id: 2,
+        id: 1,
         title: "GitHub Profile Finder",
         date: "Oct 2023 - Nov 2023",
         description: "App to explore GitHub users & their profiles for efficient searches & info display.",
@@ -215,7 +275,7 @@ export const projects = [
         webapp: "https://alpha-github-finder.vercel.app/",
     },
     {
-        id: 3,
+        id: 0,
         title: "Yelp Camp",
         date: "May 2023 - Sep 2023",
         description: "YelpCamp, a full-stack website, allows users to create, review campgrounds, featuring map integration for exploring campground clusters. Built with Node.js, Express, MongoDB, Bootstrap, and Passport.js for authentication.",
@@ -225,40 +285,6 @@ export const projects = [
         github: "https://github.com/Alpha-Stark/YelpCamp",
         webapp: "",
     },
-    /* {
-        id: 1,
-        title: "Atreus",
-        date: "Aug 2023",
-        description: "A social media platform built using Spring Boot and Next.js, supporting real-time posting, AWS S3 media storage, and interactive feeds.",
-        tags: ["Spring Boot", "Next.js", "MySQL", "NextAuth", "AWS S3"],
-        github: "https://github.com/Alpha-Stark/Atreus",
-    },
-    {
-        id: 2,
-        title: "Data Fort",
-        date: "Aug 2023",
-        description: "A secure Ethereum-based storage solution for drone images, integrating blockchain for data integrity and ML models for image processing.",
-        image: "https://alpha-stark.github.io/images/DataFort.png",
-        // image: "https://image.architonic.com/pro1-3/20182762/ps-1440-z-pro-sq-arcit18.jpg",
-        tags: ["Next.js", "React.js", "Solidity", "Tailwind CSS", "Pinata"],
-        category: "machine learning",
-        github: "https://github.com/Alpha-Stark/DataFort",
-        webapp: "https://datafort-1761ff.spheron.app/",
-        member: [
-            {
-                name: "Mann Savani",
-                img: "https://alpha-stark.github.io/images/MannSavani.jpg",
-                linkedin: "https://www.linkedin.com/in/mann-savani/",
-                github: "https://github.com/Alpha-Stark",
-            },
-            {
-                name: "Hardi Virani",
-                img: "https://alpha-stark.github.io/images/Hardi1a.jpg",
-                linkedin: "https://www.linkedin.com/in/hardi-virani/",
-                github: "https://github.com/hardi-virani",
-            },
-        ],
-    }, */
 ];
 
 /* export const TimeLineData = [

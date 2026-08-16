@@ -4,7 +4,8 @@ import styled from "styled-components";
 const Card = styled.div`
     width: 330px;
     // height: 490px;
-    height: 535px;
+    min-height: 535px;
+    height: auto;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -109,13 +110,17 @@ const Button = styled.a`
 const ButtonContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
     padding: 0px 30px; /* Add padding to create space around buttons */
+    padding-bottom: 4px;
 `;
 
 const CenteredButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: auto;
+    padding-bottom: 4px;
 `;
 
 // const ProjectCard = ({ project, setOpenModal }) => {
